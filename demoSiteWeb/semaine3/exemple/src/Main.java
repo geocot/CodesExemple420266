@@ -5,5 +5,10 @@ public class Main {
         pitou.seDeplacer();
         System.out.println(pitou.getPoids());
 
+        Poisson doris = new Poisson(10,1,"bleu");
+        doris.seDeplacer();
+        doris.getPoids();
+        System.out.println(doris.getPoids());
+
     }
 }
