@@ -1,9 +1,12 @@
+package ClassesAbstraites;
+
 public class Poisson extends Animal {
 
     public Poisson(double taille, double poids, String couleur ) {
-        this.taille = taille;
-        this.poids = poids;
-        this.couleur = couleur;
+        super(poids, couleur, taille);
+    }
+    public void faitDesBulles(){
+        System.out.println("OoooOooo");
     }
 
     @Override

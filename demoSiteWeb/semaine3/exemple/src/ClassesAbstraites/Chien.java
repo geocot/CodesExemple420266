@@ -1,8 +1,8 @@
-public class Chien extends Animal{
+package ClassesAbstraites;
+
+public class Chien extends Animal {
     public Chien(double taille, double poids, String couleur ) {
-        this.taille = taille;
-        this.poids = poids;
-        this.couleur = couleur;
+        super(poids, couleur, taille);
     }
 
     @Override

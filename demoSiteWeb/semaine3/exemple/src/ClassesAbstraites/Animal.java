@@ -1,7 +1,15 @@
+package ClassesAbstraites;
+
 public abstract class Animal {
     protected double poids;
     protected String couleur;
     protected double taille;
+
+    protected Animal(double poids, String couleur, double taille) {
+        this.poids = poids;
+        this.couleur = couleur;
+        this.taille = taille;
+    }
 
     public double getPoids() {
         return poids;
