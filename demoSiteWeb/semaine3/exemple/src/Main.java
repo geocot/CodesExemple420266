@@ -20,6 +20,7 @@ public class Main {
         groupe[0].seDeplacer();
         groupe[1].seDeplacer();
         // Ceci ne fonctionne pas Poisson p = groupe[1];
+        Poisson p = (Poisson)groupe[1]; //Fonctionne
         //L'élément groupe[1].faitDesBulles() ne fonctionne pas, même si c'est un poisson.
     }
 }
